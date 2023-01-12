@@ -1,0 +1,34 @@
+.parent {
+    padding: 50px;
+}
+#container {
+    width: 250px;
+    height: 250px;
+    background-color: #f7754f;
+    margin: auto;
+    border: 3px solid rgb(135, 64, 135);
+    text-align: center;
+}
+#hex {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 45%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+#button {
+    transition-duration: 0.4s;
+    border: 2px solid RGB(162, 38, 142, 1);
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+}
+#button:hover {
+    background-color: RGB(226, 100, 206, 1);
+    color: white;
+}
